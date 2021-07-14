@@ -6,6 +6,7 @@
 
 {% block body %}
 	<h2>Products List</h2>
+	{{ request.host }}
 		<ul>
 			{% for (product_id, product_name) in products.items() %}
 				<li>#{{ product_id }} -

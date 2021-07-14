@@ -1,7 +1,7 @@
 from flask import Flask, request, render_template
 from werkzeug.exceptions import BadRequest
 
-from views.products import products_app
+from my_shop.views import products_app
 
 app = Flask(__name__)
 

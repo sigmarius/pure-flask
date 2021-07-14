@@ -45,6 +45,6 @@ def product_details(product_id):
         raise NotFound(f"Product #{product_id} not found!")
 
     return render_template('products/product_details.html',
-                    product_id=product_id,
-                    product_name=product_name)
+                           product_id=product_id,
+                           product_name=product_name)
 
