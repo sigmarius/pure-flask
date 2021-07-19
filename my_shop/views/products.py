@@ -32,7 +32,8 @@ def product_add():
             f"Error adding product {product_name!r}. Product already exists!")
 
     # записываем в БД, если все ОК, автоматически увеличивая индекс
-    product = Product(name=product_name)
+    product_is_new = request.form.get("is-new")
+    product = Product(name=product_name, is_new=bool(product_is_new))
     # записываем в сессию, она автоматически закроется после выполнения запроса
     db.session.add(product)
     try:

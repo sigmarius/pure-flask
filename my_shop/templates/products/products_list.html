@@ -11,8 +11,11 @@
 			{% for product in products %}
 				<li>#{{ product_id }} -
 					<a href="{{ url_for('products_app.details', product_id=product.id) }}">
-						 {{ product.name }}
+						 {{- product.name -}}
 					</a>
+                    {%- if product.is_new %}
+                        <span class="badge badge-secondary">New</span>
+                    {% endif %}
 				</li>
 			{% endfor %}
 		</ul>
