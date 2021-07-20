@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e5c291a9-edf5-417f-b594-2490014587a7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_shop/models/product.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_shop/models/product.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_shop/templates/products/add_product.html" beforeDir="false" afterPath="$PROJECT_DIR$/my_shop/templates/products/add_product.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_shop/templates/products/product_details.html" beforeDir="false" afterPath="$PROJECT_DIR$/my_shop/templates/products/product_details.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_shop/templates/products/products_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/my_shop/templates/products/products_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_shop/views/products.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_shop/views/products.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_shop/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_shop/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +115,7 @@
       <workItem from="1626325308198" duration="5871000" />
       <workItem from="1626420923557" duration="97000" />
       <workItem from="1626421024504" duration="10403000" />
-      <workItem from="1626434271003" duration="10065000" />
+      <workItem from="1626434271003" duration="19496000" />
     </task>
     <servers />
   </component>

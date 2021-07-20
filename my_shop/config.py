@@ -1,8 +1,16 @@
+import os
+
+SQLALCHEMY_DATABASE_URI = os.environ.get(
+    "SQLALCHEMY_DATABASE_URI",
+    "postgresql+psycopg2://user:password@localhost:5432/shop_project"
+)
+
+
 class Config(object):
     """Base config, uses staging database server."""
     TESTING = False
     DEBUG = False
-    SQLALCHEMY_DATABASE_URI = 'sqlite:///:memory:'
+    SQLALCHEMY_DATABASE_URI = SQLALCHEMY_DATABASE_URI
     SQLALCHEMY_TRACK_MODIFICATIONS = False
 
 
@@ -13,7 +21,6 @@ class ProductionConfig(Config):
 
 class DevelopmentConfig(Config):
     DEBUG = True
-    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://user:password@localhost:5432/shop_project'
 
 
 class TestingConfig(Config):
