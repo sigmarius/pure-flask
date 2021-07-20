@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e5c291a9-edf5-417f-b594-2490014587a7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/entrypoint.sh" beforeDir="false" afterPath="$PROJECT_DIR$/prestart.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_shop/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_shop/app.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my_shop/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_shop/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +116,7 @@
       <workItem from="1626325308198" duration="5871000" />
       <workItem from="1626420923557" duration="97000" />
       <workItem from="1626421024504" duration="10403000" />
-      <workItem from="1626434271003" duration="19496000" />
+      <workItem from="1626434271003" duration="23704000" />
     </task>
     <servers />
   </component>

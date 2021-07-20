@@ -16,7 +16,7 @@ class Config(object):
 
 class ProductionConfig(Config):
     """Uses production database server."""
-    DB_SERVER = ''
+    DB_SERVER = "0.0.0.0"
 
 
 class DevelopmentConfig(Config):

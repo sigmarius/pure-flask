@@ -1,3 +1,5 @@
+import os
+
 from flask import Flask, request, render_template
 from werkzeug.exceptions import BadRequest
 
@@ -7,8 +9,10 @@ from my_shop import config
 from my_shop.models.database import db
 from my_shop.views.products import products_app
 
+is_production = os.environ.get("FLASK_ENV", "") == "production"
+
 app = Flask(__name__)
-app.config.from_object(config.DevelopmentConfig)
+app.config.from_object(config.ProductionConfig if is_production else config.DevelopmentConfig)
 
 db.init_app(app)
 migrate = Migrate(app, db)
